@@ -1,20 +1,29 @@
-# Sunshine
+# Weather App – iOS (SwiftUI + OpenWeatherMap API)
 
-This is my first SwiftUI project, as I decided not to release it to the App Store. I made the codebase available here for anyone to take a look at.
-It can serve as a good example or template to anyone looking to build a weather app.
+This is a weather forecasting application developed using SwiftUI and the OpenWeatherMap One Call API. It provides real-time weather data, hourly forecast, and seven-day predictions with a clean and animated interface.
 
-## Instructions
+## Overview
+The goal of this application was to build a functional weather app using data modeling, API integration, and SwiftUI animations. The project follows MVVM architecture, with reusable UI components and scalable design.
 
-You can try out the app on your own device. For that you will need to:
+## Key Features
+- Real-time weather updates (temperature, wind, humidity, conditions)
+- Six-hour hourly forecast and seven-day weekly forecast
+- Animated weather interface with clouds, rain, and gradient transitions
+- Custom API client for data handling and token management
+- Temperature unit switching (Celsius and Fahrenheit)
+- MVVM architecture for clean and scalable code
 
-1. Register to [OpenWeatherMap](https://openweathermap.org) and get a token for the **One Call API** (very important as the app is based on the spec of this API)
-2. Clone this repository
-3. Add the OpenWeatherMap token to `WeatherAPIClient.swift` line 145
-4. Compile and run the app on a device or the simulator
+## Technologies Used
+- Swift, SwiftUI
+- URLSession, JSON Parsing
+- OpenWeatherMap One Call API
+- MVVM architecture
+- SwiftUI transitions and gradient animations
 
-## Notes
-
-- Sunshine works almost flawlessly from iOS 14 to iOS 14.3.
-- This project is stopped, so I won't do any maintenance. I won't reply to most issues if any at all.
-- Some weather assets are missing, some others are not animated, this is because I stopped working on this project before being able to tackle those.
+## What I Learned
+- Building API service clients in Swift
+- Using MVVM to structure SwiftUI applications
+- Working with animations and dynamic gradients
+- Implementing reusable SwiftUI components
+- Handling live data and UI updates
 
